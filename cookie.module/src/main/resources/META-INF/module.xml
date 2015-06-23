@@ -1,0 +1,7 @@
+<module name="yahooCookieModule">
+    <OutFlow>
+        <handler name="LoginCookieHandler" class="org.wso2.carbon.axis2.handler.CookieHandler">
+            <order phase="MessageOut"/>
+        </handler>
+    </OutFlow>
+</module>
